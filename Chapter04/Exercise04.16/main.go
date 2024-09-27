@@ -17,4 +17,9 @@ func main() {
 	fmt.Println("id1 == id2        :", id1 == id2)
 	fmt.Println("id2 == id3        :", id2 == id3)
 	fmt.Println("id2 == \"1234-5678\":", string(id2) == "1234-5678")
+
+	type idInt int
+	var x1, x2, x3 idInt = 1, 1, 3
+	fmt.Println("x1 == x2:", x1 == x2)
+	fmt.Println("x2 == x3:", x2 == x3)
 }
