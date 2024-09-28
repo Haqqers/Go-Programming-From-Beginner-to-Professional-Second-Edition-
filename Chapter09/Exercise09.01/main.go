@@ -1,6 +1,6 @@
 package main
 
-import "github.com/haqqers/Go-Programming-From-Beginner-to-Professional-Second-Edition-/Chapter09/Exercise09.01/bookutil/author"
+import "bookutil/author"
 
 func main() {
 	authorInstance := author.NewAuthor("Jane Doe", "jane@example.com")
